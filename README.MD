@@ -1,6 +1,6 @@
 # Introduction
 
-Le script **watermarker** fournit un moyen pratique de **watermarker** une image. Il a été créé pour faciliter le filigrane des images.
+Le script **watermarker** fournit un moyen pratique de **watermarker** une image. Il a été créé pour faciliter le filigrane des images. Vous avez même ma possibilité de watermarker plusieurs images à la fois.
 
 # Installation
 
