@@ -1,6 +1,16 @@
 import runpy
 import sys
 
-sys.argv = ['','--input='+path, '--output='+w_path,"--wimage=./media/filigranes/"+id_img+".jpg","--wpos=LD","--wposm=10","--verbose"]
-runpy.run_path('./watermarkingApp/utils/watermarker.py', run_name='__main__')
+#you must set these variables
+
+#image à watermarker
+input_path=
+
+#chemin du résultat
+output_path=
+#chemin du filigrane
+watermark_path=
+
+sys.argv = ['','--input='+input_path, '--output='+output_path,"--wimage="+watermark_path,"--wpos=LD","--wposm=10","--verbose"]
+runpy.run_path('./watermarker.py', run_name='__main__')
 
